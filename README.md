@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Curriculum Activity and Attendance Application
 
 **Batch:** CAI-29 | **Program:** AI & ML  | **Guide:** Ms. Harika P | **Reviewer:** Ms. Suma N G
@@ -29,3 +30,7 @@ Educational institutions currently face challenges in accurately tracking studen
 
 ---
 *Final Semester Project*
+=======
+# CAI_29
+SMART CURRICULUM ACTIVITY AND ATTENDANCE APP
+>>>>>>> 526976784a2b0f04d4ae045e689307601eeeb7e4
