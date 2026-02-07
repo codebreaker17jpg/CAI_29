@@ -1,6 +1,11 @@
-fastapi 
-uvicorn 
-scikit-learn 
-pandas 
+fastapi
+uvicorn
+scikit-learn
+pandas
 joblib
-
+streamlit
+requests
+opencv-python-headless
+face_recognition
+python-multipart
+numpy

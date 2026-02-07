@@ -1,36 +1,41 @@
-<<<<<<< HEAD
-# Smart Curriculum Activity and Attendance Application
+# 🎓 Smart Curriculum & Attendance System
 
-**Batch:** CAI-29 | **Program:** AI & ML  | **Guide:** Ms. Harika P | **Reviewer:** Ms. Suma N G
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-orange)
 
-##  Problem Statement
-Educational institutions currently face challenges in accurately tracking student attendance and participation in co-curricular activities. Manual registers are prone to errors and proxies. This project aims to build a **Smart Curriculum Activity and Attendance App** that automates tracking using AI and correlates attendance with activity participation.
+## 📌 Project Overview
+The **Smart Curriculum Activity and Attendance App** is an AI-powered system designed to modernize educational tracking. It replaces manual roll calls with **Face Recognition** and uses **Machine Learning** to predict student detention risks before they happen.
 
-##  Key Features
-- **Smart Attendance:** Automated marking via Face Recognition & Geofencing.
-- **Activity Log:** Digital validation for workshops, hackathons, and sports.
-- **Analytics Dashboard:** Real-time insights into student engagement and risk of detention.
-- **Proxy Prevention:** Two-factor verification (Location + Biometric).
+This project was built as a Capstone Project to solve the inefficiency of manual attendance and provide actionable insights to faculty.
 
-##  Technology Stack
-- **Frontend:** Flutter / React Native
-- **Backend:** Python (Flask/Django)
-- **Database:** MongoDB / Firebase
-- **AI/ML:** OpenCV, Face_recognition, Scikit-learn
+## ✨ Key Features
 
-##  Project Timeline
-- [x] **Phase 1:** Problem Analysis & Requirement Gathering
-- [ ] **Phase 2:** UI/UX Design & Database Schema
-- [ ] **Phase 3:** Core Development (Attendance Module)
-- [ ] **Phase 4:** Testing & Final Deployment
+### 1. 📸 Smart Attendance (Face ID)
+- **Zero-Touch Logging:** Students simply look at the camera to mark attendance.
+- **Anti-Spoofing:** Built with `face_recognition` and OpenCV to detect live faces.
+- **Instant Database Entry:** Automatically logs the student ID, date, and time into SQLite.
 
-##  Team Members
-- **Student 1:** [Rohit S - 20211CAI0150]
-- **Student 2:** [Syed Azeem - 20211CAI0182]
+### 2. 🔮 AI Risk Predictor
+- **Early Warning System:** Uses Logistic Regression to analyze attendance history.
+- **Simulator Mode:** Teachers can adjust variables (e.g., "What if this student misses 3 more days?") to see if a student falls into the "At Risk" category.
+
+### 3. 📊 Admin Dashboard & Reports
+- **Live Logs:** View real-time attendance records.
+- **Excel Export:** One-click download of attendance reports (`.csv`) for official record-keeping.
+- **Data Visualization:** Clean tables showing "Safe" vs. "At Risk" status.
 
 ---
-*Final Semester Project*
-=======
-# CAI_29
-SMART CURRICULUM ACTIVITY AND ATTENDANCE APP
->>>>>>> 526976784a2b0f04d4ae045e689307601eeeb7e4
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | Streamlit (Python) |
+| **Backend** | FastAPI |
+| **Database** | SQLite3 |
+| **Computer Vision** | OpenCV, face_recognition, dlib |
+| **Machine Learning** | Scikit-Learn, Pandas, NumPy |
+
+---
